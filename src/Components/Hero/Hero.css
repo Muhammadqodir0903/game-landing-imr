@@ -1,0 +1,139 @@
+.Hero{
+    background: url('../../assets/img/bg__img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -10px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+
+.hero__title{
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero__info{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.hero__btn{
+    display: block;
+    margin: 0 auto;
+    color: rgb(26, 25, 23);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    width: 260px;
+    height: 60px;
+    border-radius: 4px;
+    background: linear-gradient(181.15deg, rgb(255, 181, 72) 10.819%,rgb(243, 175, 52) 90.765%);
+    border: none;
+    margin-top: 30px;
+}
+
+.hero__div{
+    margin-top: 100px;   
+    text-align: center;
+    transform: translateY(270px);
+}
+
+@media only screen and (max-width: 690px) {
+    .hero__title{
+        font-size: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero__title{
+        font-size: 60px;
+    }
+    .hero__info{
+        font-size: 20px;    
+    }
+    .hero__btn{
+        font-size: 14px;
+        width: 240px;
+        height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .hero__title{
+        font-size: 50px;
+    }
+    .hero__info{
+        margin-top: 10px;
+        font-size: 18px;    
+    }
+    .hero__btn{
+        margin-top: 10px;
+        font-size: 13px;
+        width: 230px;
+        height: 40px;
+    }
+    .Hero{
+        padding-top: 150px;
+        padding-bottom: 280px;
+    }
+    .hero__div{
+        margin-top: -50px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .hero__title{
+        font-size: 40px;
+    }
+    .hero__info{
+        margin-top: -10px;
+        font-size: 16px;    
+    }
+    .hero__btn{
+        margin-top: 10px;
+        font-size: 12px;
+        width: 230px;
+        height: 40px;
+    }
+    .Hero{
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+   
+}
+
+@media only screen and (max-width: 385px) {
+    .hero__title{
+        font-size: 30px;
+    }
+    .hero__info{
+        margin-top: -15px;
+        font-size: 12px;    
+    }
+    .hero__btn{
+        margin-top: 13px;
+        font-size: 11px;
+        width: 220px;
+        height: 40px;
+    }
+   
+}

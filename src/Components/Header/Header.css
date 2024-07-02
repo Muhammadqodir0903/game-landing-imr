@@ -1,0 +1,127 @@
+.Header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+.Header__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 38px;
+
+        a{
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 20%;
+        }
+        .a__oq{
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 20%;
+        }
+        .a__qora{
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 20%;
+        }
+
+        .active {
+            color: rgb(255, 181, 72);
+            padding-bottom: 5px;
+            border-bottom: 2px solid rgb(255, 181, 72);
+        }
+    }
+}
+
+/* .header__item{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 10%;
+    text-align: right;
+    text-transform: uppercase;
+} */
+
+.burger{
+    display: none;
+}
+
+.select {
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+
+.option {
+    background-color: black;
+    color: white;
+}
+
+.Header__div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    select {
+        margin-right: 30px;
+    }
+
+    a {
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .header__item{
+        display: none;
+    }
+    .burger{
+        widows: 20px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    
+    .control{
+        display: none;
+    }
+    .Header__div2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .logo{
+        height: 60px;
+        width: 60px;
+    }
+    
+    .control{
+        display: none;
+    }
+    .Header__div2{
+        font-size: 30px;
+    }
+}
